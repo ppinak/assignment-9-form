@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Bootstrap File</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-8"> 
+		<p>Step right up and test your knowledge about one of the world's greatest inventors, Thomas Edison! Read up on him here on <a href="https://en.wikipedia.org/wiki/Thomas_Edison">Wikipedia.</a></p> 
+		
+<form>
+	<div class="form-group">
+		<label for="inputQuestion1">What year was Thomas Edison born?</label><br>
+		<input type="text" id="inputQuestion1">
+	</div>
+		
+	<div class="form-group">
+		<label for="inputQuestion2">What is Thomas Edison's middle name?</label><br>
+		<input type="text" id="inputQuestion2">
+	</div>
+		
+	<div class="form-group">
+		<label for="inputQuestion3">How Edison develop hearing problems at a young 					age?</label><br>
+		<textarea id="inputQuestion3" placeHolder="In 200 characters or less" maxlength="200"></textarea>
+	</div>
+		
+<label for="number">How many patents in the U.S. does Edison hold?</label>
+	
+	<div class="radio">
+		<label> 
+		<input name="number" type="radio" value="Under500" id="under500">
+		Under 500
+		</label>
+	</div>
+		
+	<div class="radio">
+		<label> 
+		<input name="number" type="radio" value="500-1,000" id="500-1000">
+		500-1,000
+		</label>
+	</div>
+		
+	<div class="radio">
+		<label> 
+		<input name="number" type="radio" value="1,001-1,500" id="1001-1500">
+		1,001-1,500
+		</label>
+	</div>
+		
+	<div class="radio">
+		<label> 
+		<input name="number" type="radio" value="More1500" id="more500">
+		More than 1,500
+		</label>
+	</div>
+	
+
+<label for="countries">Which of the countries listed below does Edison have patents in? (Check all that apply)</label>
+
+	<div class="checkbox">
+		<label>
+		<input type="checkbox" name="countries" value="unitedstates" id="inputAddList"> 
+		United States
+		</label>
+	</div>
+	
+	<div class="checkbox">
+		<label>
+		<input type="checkbox" name="countries" value="unitedkingdom"> 
+		United Kingdom
+		</label>
+	</div>
+	
+	<div class="checkbox">
+		<label>
+		<input type="checkbox" name="countries" value="france"> 
+		France
+		</label>
+	</div>
+		
+	<div class="checkbox">
+		<label>
+		<input type="checkbox" name="countries" value="germany"> 
+		Germany
+		</label>
+	</div>	
+	
+<div class="form-group">	
+	<label for="inputMenu">Below are some of Edison's family members. Select one of which was a child he had with his first wife, Mary Stilwell.</label><br>
+	<select name="FirstWifeChildren" id="inputMenu" multiple>
+		<option>Marion Estelle Edison</option>
+		<option>Thomas Alva Edison Jr.</option>
+		<option>William Leslie Edison</option>
+		<option>Madeleine Edison</option>
+		<option>Charles Edison </option>
+		<option>Theodore Miller Edison</option>
+		<option>Samuel Ogden Edison, Jr.</option>
+		<option>Nancy Matthews Elliott</option>
+	</select>
+</div>
+	
+	<div class="form-group">
+	<input class="btn btn-default"
+	type="submit" value="Submit">
+	
+	<input class="btn btn-default pull-right" type="reset" value="Start over">
+	</div>
+
+
+	
+
+</form>
+		
+		
+		
+		
+		
+		
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
